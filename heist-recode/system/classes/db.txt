@@ -1,0 +1,162 @@
+import asyncpg
+from typing import Optional, Dict, Any
+from data.config import CONFIG
+from .logger import Logger
+import asyncio
+
+class Database:
+    def __init__(self):
+        self.logger = Logger()
+        self.pool: Optional[asyncpg.Pool] = None
+        self._lock = asyncio.Lock()
+        
+    async def initialize(self) -> None:
+        try:
+            self.pool = await asyncpg.create_pool(
+                user=CONFIG['database']['user'],
+                password=CONFIG['database']['password'],
+                database=CONFIG['database']['name'],
+                host='localhost',
+                min_size=5,
+                max_size=20,
+                max_inactive_connection_lifetime=300,
+                command_timeout=60
+            )
+            self.logger.info("[DB] Database connection established")
+            await self._setup_tables()
+        except Exception as e:
+            self.logger.error(f"[DB] Database connection failed: {e}")
+            raise
+    
+    async def _setup_tables(self) -> None:
+        async with self.pool.acquire() as conn:
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS users (
+                    uid VARCHAR(10) PRIMARY KEY,
+                    discord_username VARCHAR(255),
+                    discord_displayname VARCHAR(255),
+                    discord_id BIGINT UNIQUE,
+                    cash BIGINT DEFAULT 5000,
+                    bank BIGINT DEFAULT 0,
+                    banklimit BIGINT DEFAULT 50000,
+                    premium BOOLEAN DEFAULT FALSE,
+                    admin BOOLEAN DEFAULT FALSE,
+                    blacklisted BOOLEAN DEFAULT FALSE,
+                    lastfm VARCHAR(255) DEFAULT NULL,
+                    statsfm VARCHAR(255) DEFAULT NULL,
+                    items TEXT DEFAULT NULL,
+                    cases TEXT DEFAULT NULL
+                )
+            """)
+            
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS items (
+                    id SERIAL PRIMARY KEY
+                )
+            """)
+            
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS cases (
+                    id SERIAL PRIMARY KEY
+                )
+            """)
+            
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS emojis (
+                    id SERIAL PRIMARY KEY,
+                    name VARCHAR(255) NOT NULL,
+                    dname TEXT NOT NULL
+                )
+            """)
+
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS user_config (
+                    user_id BIGINT PRIMARY KEY,
+                    prefix VARCHAR(10) DEFAULT NULL
+                )
+            """)
+
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS config (
+                    guild_id BIGINT PRIMARY KEY,
+                    prefix VARCHAR(10) DEFAULT ','
+                )
+            """)
+
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS donators (
+                    user_id BIGINT PRIMARY KEY,
+                    donation_amount BIGINT DEFAULT 0,
+                    donation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            """)
+            
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS worker_badges (
+                    user_id BIGINT,
+                    badge_name VARCHAR(255),
+                    badge_description TEXT DEFAULT NULL,
+                    PRIMARY KEY (user_id, badge_name)
+                )
+            """)
+
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS reskin (
+                    user_id BIGINT PRIMARY KEY,
+                    username VARCHAR(255) NOT NULL,
+                    avatar_url TEXT NOT NULL,
+                    color INTEGER NOT NULL
+                )
+            """)
+
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS invocation (
+                    guild_id BIGINT,
+                    command VARCHAR(255),
+                    code TEXT NOT NULL,
+                    PRIMARY KEY (guild_id, command)
+                )
+            """)
+
+            await conn.execute("""
+                CREATE TABLE IF NOT EXISTS text_level_settings (
+                    guild_id BIGINT PRIMARY KEY,
+                    level_enabled BOOLEAN DEFAULT TRUE,
+                    level_roles TEXT DEFAULT NULL,
+                    level_rewards TEXT DEFAULT NULL
+                )
+            """)
+
+    async def get_next_uid(self) -> str:
+        async with self.pool.acquire() as conn:
+            count = await conn.fetchval("SELECT COUNT(*) FROM users")
+            return str(count + 1)
+    
+    async def register_user(self, discord_id: int, username: str, displayname: str) -> None:
+        uid = await self.get_next_uid()
+        async with self.pool.acquire() as conn:
+            await conn.execute(
+                """
+                INSERT INTO users (uid, discord_username, discord_displayname, discord_id)
+                VALUES ($1, $2, $3, $4)
+                """,
+                uid, username, displayname, discord_id
+            )
+
+    async def get_emoji(self, name: str) -> Optional[str]:
+        """Get emoji display name by emoji name"""
+        async with self.pool.acquire() as conn:
+            return await conn.fetchval(
+                "SELECT dname FROM emojis WHERE name = $1",
+                name
+            )
+
+    async def fetchrow(self, query: str, *params) -> Optional[Dict[str, Any]]:
+        """Fetch a single row from the database."""
+        async with self.pool.acquire() as conn:
+            return await conn.fetchrow(query, *params)
+
+    async def fetchval(self, query: str, *params) -> Optional[Any]:
+        """Fetch a single value from the database."""
+        async with self.pool.acquire() as conn:
+            return await conn.fetchval(query, *params)

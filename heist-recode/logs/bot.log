@@ -1,0 +1,357 @@
+(2025-05-15 17:00:22) -> INFO: [REDIS] Connection established successfully
+(2025-05-15 17:00:22) -> INFO: Database and Redis initialized successfully
+(2025-05-15 17:00:23) -> DEBUG: Checking blacklist status for user 1363295564133040272
+(2025-05-15 17:00:23) -> DEBUG: Blacklist cache hit for 1363295564133040272: False
+(2025-05-15 17:00:23) -> DEBUG: Checking donor status for user 1363295564133040272
+(2025-05-15 17:00:23) -> DEBUG: Donor cache hit for 1363295564133040272: True
+(2025-05-15 17:00:23) -> DEBUG: Executing fetchrow: SELECT discord_id, roblox_name, last_updated FROM ...
+(2025-05-15 17:00:23) -> DEBUG: Response from Bloxlink: {'robloxID': '4080911173', 'resolved': {'roblox': None}}
+(2025-05-15 17:00:35) -> DEBUG: Checking blacklist status for user 1363295564133040272
+(2025-05-15 17:00:35) -> DEBUG: Blacklist cache hit for 1363295564133040272: False
+(2025-05-15 17:00:35) -> DEBUG: Checking donor status for user 1363295564133040272
+(2025-05-15 17:00:35) -> DEBUG: Donor cache hit for 1363295564133040272: True
+(2025-05-15 17:00:35) -> DEBUG: Executing fetchrow: SELECT discord_id, roblox_name, last_updated FROM ...
+(2025-05-15 17:02:05) -> DEBUG: Checking blacklist status for user 1363295564133040272
+(2025-05-15 17:02:05) -> DEBUG: Blacklist cache hit for 1363295564133040272: False
+(2025-05-15 17:02:09) -> DEBUG: Checking blacklist status for user 1363295564133040272
+(2025-05-15 17:02:09) -> DEBUG: Blacklist cache hit for 1363295564133040272: False
+(2025-05-15 17:02:38) -> DEBUG: Checking blacklist status for user 1363295564133040272
+(2025-05-15 17:02:38) -> DEBUG: Blacklist cache hit for 1363295564133040272: False
+(2025-05-15 17:02:38) -> DEBUG: Checking blacklist status for user 1363295564133040272
+(2025-05-15 17:02:38) -> DEBUG: Blacklist cache hit for 1363295564133040272: False
+(2025-05-15 17:02:38) -> DEBUG: Checking blacklist status for user 1363295564133040272
+(2025-05-15 17:02:38) -> DEBUG: Blacklist cache hit for 1363295564133040272: False
+(2025-05-15 17:02:45) -> DEBUG: Checking blacklist status for user 1363295564133040272
+(2025-05-15 17:02:45) -> DEBUG: Blacklist cache hit for 1363295564133040272: False
+(2025-05-15 17:18:19) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:18:19) -> DEBUG: Blacklist DB query for 1360614330474827906: False
+(2025-05-15 17:18:19) -> DEBUG: Getting embed color for user 1360614330474827906
+(2025-05-15 17:18:19) -> DEBUG: Setting embed color for user 1360614330474827906: 13883121
+(2025-05-15 17:18:20) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:18:20) -> DEBUG: Blacklist DB query for 1340596967029346405: False
+(2025-05-15 17:20:06) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:06) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:06) -> DEBUG: Getting embed color for user 1360614330474827906
+(2025-05-15 17:20:06) -> DEBUG: Embed color cache hit for 1360614330474827906: 13883121
+(2025-05-15 17:20:06) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:06) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:07) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:07) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:07) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:07) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:08) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:08) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:08) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:08) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:08) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:08) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:09) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:09) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:09) -> DEBUG: Getting embed color for user 1360614330474827906
+(2025-05-15 17:20:09) -> DEBUG: Embed color cache hit for 1360614330474827906: 13883121
+(2025-05-15 17:20:09) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:09) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:10) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:20:10) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:20:49) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:20:49) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:20:49) -> DEBUG: Executing fetchrow: SELECT count FROM user_actions WHERE user_id = $1 ...
+(2025-05-15 17:20:49) -> DEBUG: Executing fetchrow: 
+                    INSERT INTO user_actions (use...
+(2025-05-15 17:20:49) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:20:49) -> DEBUG: Setting embed color for user 1340596967029346405: 13883121
+(2025-05-15 17:21:06) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:06) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:09) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:21:09) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:21:09) -> DEBUG: Executing fetchrow: SELECT count FROM user_actions WHERE user_id = $1 ...
+(2025-05-15 17:21:09) -> DEBUG: Executing fetchrow: 
+                    INSERT INTO user_actions (use...
+(2025-05-15 17:21:09) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:21:09) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:21:15) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:21:15) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:21:15) -> DEBUG: Executing fetchrow: SELECT count FROM user_actions WHERE user_id = $1 ...
+(2025-05-15 17:21:15) -> DEBUG: Executing fetchrow: 
+                    INSERT INTO user_actions (use...
+(2025-05-15 17:21:16) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:21:16) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:21:24) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:24) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:24) -> DEBUG: Executing fetchrow: SELECT count FROM user_actions WHERE user_id = $1 ...
+(2025-05-15 17:21:24) -> DEBUG: Executing fetchrow: 
+                    INSERT INTO user_actions (use...
+(2025-05-15 17:21:24) -> DEBUG: Getting embed color for user 1360614330474827906
+(2025-05-15 17:21:24) -> DEBUG: Embed color cache hit for 1360614330474827906: 13883121
+(2025-05-15 17:21:24) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:24) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:25) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:25) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:25) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:25) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:26) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:26) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:26) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:26) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:27) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:27) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:27) -> DEBUG: Getting embed color for user 1360614330474827906
+(2025-05-15 17:21:27) -> DEBUG: Embed color cache hit for 1360614330474827906: 13883121
+(2025-05-15 17:21:29) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:21:29) -> DEBUG: Blacklist DB query for 1340596967029346405: False
+(2025-05-15 17:21:29) -> DEBUG: Checking blacklist status for user 1360614330474827906
+(2025-05-15 17:21:29) -> DEBUG: Blacklist cache hit for 1360614330474827906: False
+(2025-05-15 17:21:32) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:21:32) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:21:38) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:21:38) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:22:13) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:22:13) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:22:21) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:22:21) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:22:45) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:22:45) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:22:48) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:22:48) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:22:49) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:22:49) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:22:49) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:22:49) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:01) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:01) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:01) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:01) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:01) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:01) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:01) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:01) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:01) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:01) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:02) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:02) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:02) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:02) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:02) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:02) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:02) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:02) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:03) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:03) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:03) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:03) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:03) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:03) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:03) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:03) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:04) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:04) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:04) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:04) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:04) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:04) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:05) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:05) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:13) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:13) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:14) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:14) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:14) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:14) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:14) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:14) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:15) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:15) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:15) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:15) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:15) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:15) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:16) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:16) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:16) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:16) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:16) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:16) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:26) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:26) -> DEBUG: Blacklist DB query for 1340596967029346405: False
+(2025-05-15 17:23:27) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:27) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:27) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:27) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:27) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:27) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:27) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:27) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:27) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:27) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:27) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:27) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:28) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:28) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:28) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:28) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:28) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:28) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:28) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:28) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:29) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:29) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:29) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:29) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:30) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:30) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:30) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:30) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:30) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:30) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:30) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:30) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:31) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:31) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:31) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:31) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:31) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:31) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:32) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:32) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:32) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:32) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:23:32) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:23:32) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:24:18) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:24:18) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:24:18) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:24:18) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:24:28) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:24:28) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:24:33) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:24:33) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:24:44) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:24:44) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:24:44) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:24:44) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:25:36) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:36) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:36) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:25:36) -> DEBUG: Embed color DB query for 1340596967029346405: 13883121
+(2025-05-15 17:25:37) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:37) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:37) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:25:37) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:25:41) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:41) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:41) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:25:41) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:25:41) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:41) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:42) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:42) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:43) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:43) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:43) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:43) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:43) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:43) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:44) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:44) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:44) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:25:44) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:25:56) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:56) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:56) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:25:56) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:25:57) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:57) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:57) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:57) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:57) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:57) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:58) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:58) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:58) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:58) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:25:58) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:25:58) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:06) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:06) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:06) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:26:06) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:26:14) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:14) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:14) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:26:14) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:26:18) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:18) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:18) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:26:18) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:26:19) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:19) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:19) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:19) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:20) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:20) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:20) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:20) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:20) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:20) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:20) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:20) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:21) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:21) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:21) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:26:21) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:26:21) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:21) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:21) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:21) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:22) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:22) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:22) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:22) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:22) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:22) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:23) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:23) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:23) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:23) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:23) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:23) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:23) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:23) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:24) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:24) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:24) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:26:24) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:26:27) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:27) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:27) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:27) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:44) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:44) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:44) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:26:44) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:26:44) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:44) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:45) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:45) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:45) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:45) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:45) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:45) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:45) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:45) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:46) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:46) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:46) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:46) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:46) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:46) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:47) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:47) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:47) -> DEBUG: Getting embed color for user 1340596967029346405
+(2025-05-15 17:26:47) -> DEBUG: Embed color cache hit for 1340596967029346405: 13883121
+(2025-05-15 17:26:47) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:47) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:47) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:47) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
+(2025-05-15 17:26:48) -> DEBUG: Checking blacklist status for user 1340596967029346405
+(2025-05-15 17:26:48) -> DEBUG: Blacklist cache hit for 1340596967029346405: False
