@@ -1,0 +1,36 @@
+{
+  "name": "heist-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "add": "^2.0.6",
+    "button": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "dlx": "^0.2.1",
+    "framer-motion": "^11.13.1",
+    "lucide-react": "^0.468.0",
+    "next": "15.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "shadcn": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.16",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5"
+  }
+}

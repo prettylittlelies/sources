@@ -1,0 +1,980 @@
+{
+    "discord": {
+        "name": "discord",
+        "description": "Discord related commands",
+        "usage": "Group",
+        "category": "Discord",
+        "subcommands": [
+            {
+                "name": "user",
+                "description": "View a Discord user's profile. (DISABLED)",
+                "usage": "/discord user [user]",
+                "category": "Discord"
+            },
+            {
+                "name": "usertheme",
+                "description": "Get a Discord user's profile theme colors. (DISABLED)",
+                "usage": "/discord usertheme [user]",
+                "category": "Discord"
+            },
+            {
+                "name": "avatarhistory",
+                "description": "View the avatar history of a Discord user.",
+                "usage": "/discord avatarhistory [user]",
+                "category": "Discord"
+            }
+        ]
+    },
+    "avatar": {
+        "name": "avatar",
+        "description": "View an user's avatar.",
+        "usage": "/avatar [user] [decoration]",
+        "category": "Discord"
+    },
+    "banner": {
+        "name": "banner",
+        "description": "View an user's banner.",
+        "usage": "/banner [user]",
+        "category": "Discord"
+    },
+    "lastfm": {
+        "name": "lastfm",
+        "description": "LastFM related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "friends",
+                "description": "Friends related LastFM commands",
+                "usage": "Group",
+                "category": "Socials",
+                "subcommands": [
+                    {
+                        "name": "add",
+                        "description": "Add someone as a Last.fm friend.",
+                        "usage": "/friends add <user>",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "remove",
+                        "description": "Remove a user from your Last.fm friends list.",
+                        "usage": "/friends remove <user>",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "list",
+                        "description": "View your Last.fm friends list.",
+                        "usage": "/friends list ",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "whoknowstrack",
+                        "description": "See which of your Last.fm friends know your current playing track.",
+                        "usage": "/friends whoknowstrack ",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "whoknowsalbum",
+                        "description": "See which of your Last.fm friends know your current playing album.",
+                        "usage": "/friends whoknowsalbum ",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "whoknowsartist",
+                        "description": "See which of your Last.fm friends know your current playing artist.",
+                        "usage": "/friends whoknowsartist ",
+                        "category": "Socials"
+                    }
+                ]
+            },
+            {
+                "name": "top",
+                "description": "Stats related LastFM commands",
+                "usage": "Group",
+                "category": "Socials",
+                "subcommands": [
+                    {
+                        "name": "albums",
+                        "description": "Get your Last.fm top albums.",
+                        "usage": "/top albums [username] [period]",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "tracks",
+                        "description": "Get your Last.fm top tracks.",
+                        "usage": "/top tracks [username] [period]",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "artists",
+                        "description": "Get your Last.fm top artists.",
+                        "usage": "/top artists [username] [period]",
+                        "category": "Socials"
+                    }
+                ]
+            },
+            {
+                "name": "unset",
+                "description": "Remove your Last.fm username.",
+                "usage": "/lastfm unset ",
+                "category": "Socials"
+            },
+            {
+                "name": "set",
+                "description": "Set your Last.fm username.",
+                "usage": "/lastfm set <username>",
+                "category": "Socials"
+            },
+            {
+                "name": "nowplaying",
+                "description": "Get the current playing track on Last.fm.",
+                "usage": "/lastfm nowplaying [username] [preview]",
+                "category": "Socials"
+            },
+            {
+                "name": "spotify",
+                "description": "Find your current playing Last.fm song on Spotify.",
+                "usage": "/lastfm spotify [username]",
+                "category": "Socials"
+            },
+            {
+                "name": "profile",
+                "description": "View LastFM profile.",
+                "usage": "/lastfm profile [username]",
+                "category": "Socials"
+            },
+            {
+                "name": "latest",
+                "description": "Get latest Last.fm scrobbles.",
+                "usage": "/lastfm latest [username]",
+                "category": "Socials"
+            },
+            {
+                "name": "artist",
+                "description": "Get information about a Last.fm artist.",
+                "usage": "/lastfm artist <artist>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "snapchat": {
+        "name": "snapchat",
+        "description": "Snapchat related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "user",
+                "description": "Get Snapchat user information.",
+                "usage": "/snapchat user <username>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "youtube": {
+        "name": "youtube",
+        "description": "YouTube related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "repost",
+                "description": "Repost a YouTube Short.",
+                "usage": "/youtube repost <url>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "instagram": {
+        "name": "instagram",
+        "description": "Instagram related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "user",
+                "description": "Get Instagram user information.",
+                "usage": "/instagram user <username>",
+                "category": "Socials"
+            },
+            {
+                "name": "repost",
+                "description": "Repost an Instagram Reel.",
+                "usage": "/instagram repost <url>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "tiktok": {
+        "name": "tiktok",
+        "description": "TikTok related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "user",
+                "description": "Get TikTok user information.",
+                "usage": "/tiktok user <username>",
+                "category": "Socials"
+            },
+            {
+                "name": "repost",
+                "description": "Repost a TikTok.",
+                "usage": "/tiktok repost <url>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "x": {
+        "name": "x",
+        "description": "X related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "repost",
+                "description": "Repost an X.com post.",
+                "usage": "/x repost <url>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "pinterest": {
+        "name": "pinterest",
+        "description": "Pinterest related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "repost",
+                "description": "Repost a Pinterest pin.",
+                "usage": "/pinterest repost <url>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "roblox": {
+        "name": "roblox",
+        "description": "Roblox related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "watch",
+                "description": "Watch related Roblox commands",
+                "usage": "Group",
+                "category": "Socials",
+                "subcommands": [
+                    {
+                        "name": "add",
+                        "description": "Get notified of a Roblox user's presence updates.",
+                        "usage": "/watch add <username>",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "remove",
+                        "description": "Remove a Roblox user from your watch list.",
+                        "usage": "/watch remove <username>",
+                        "category": "Socials"
+                    },
+                    {
+                        "name": "list",
+                        "description": "List of Roblox users you're getting updates for.",
+                        "usage": "/watch list ",
+                        "category": "Socials"
+                    }
+                ]
+            },
+            {
+                "name": "user",
+                "description": "Get Roblox user information.",
+                "usage": "/roblox user <username>",
+                "category": "Socials"
+            },
+            {
+                "name": "avatar",
+                "description": "Get a Roblox user's avatar.",
+                "usage": "/roblox avatar <username>",
+                "category": "Socials"
+            },
+            {
+                "name": "calctax",
+                "description": "Calculate Robux taxes.",
+                "usage": "/roblox calctax <amount>",
+                "category": "Socials"
+            },
+            {
+                "name": "template",
+                "description": "Grab the template from Roblox clothing.",
+                "usage": "/roblox template <clothingid>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "steam": {
+        "name": "steam",
+        "description": "Steam related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "user",
+                "description": "Get Steam user information.",
+                "usage": "/steam user <userid>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "minecraft": {
+        "name": "minecraft",
+        "description": "Minecraft related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "user",
+                "description": "Get Minecraft user information.",
+                "usage": "/minecraft user <username>",
+                "category": "Socials"
+            },
+            {
+                "name": "server",
+                "description": "Get information about a Minecraft server.",
+                "usage": "/minecraft server <address>",
+                "category": "Socials"
+            }
+        ]
+    },
+    "fortnite": {
+        "name": "fortnite",
+        "description": "Fortnite related commands",
+        "usage": "Group",
+        "category": "Socials",
+        "subcommands": [
+            {
+                "name": "shop",
+                "description": "View today's Fortnite shop.",
+                "usage": "/fortnite shop ",
+                "category": "Socials"
+            }
+        ]
+    },
+    "roblox2discord": {
+        "name": "roblox2discord",
+        "description": "\u2728 Find a Roblox user's linked Discord.",
+        "usage": "/roblox2discord <username> [deepsearch]",
+        "category": "Socials"
+    },
+    "discord2roblox": {
+        "name": "discord2roblox",
+        "description": "Find a Discord user's linked Roblox.",
+        "usage": "/discord2roblox [user]",
+        "category": "Socials"
+    },
+    "github": {
+        "name": "github",
+        "description": "Get GitHub user information.",
+        "usage": "/github <username>",
+        "category": "Socials"
+    },
+    "gunslol": {
+        "name": "gunslol",
+        "description": "Lookup a Guns.lol user.",
+        "usage": "/gunslol <username>",
+        "category": "Socials"
+    },
+    "ammolol": {
+        "name": "ammolol",
+        "description": "Lookup an Ammo.lol user.",
+        "usage": "/ammolol <username>",
+        "category": "Socials"
+    },
+    "reactions": {
+        "name": "reactions",
+        "description": "Reactions related commands",
+        "usage": "Group",
+        "category": "Reactions",
+        "subcommands": [
+            {
+                "name": "slap",
+                "description": "Slap a Discord user.",
+                "usage": "/reactions slap [user]",
+                "category": "Reactions"
+            },
+            {
+                "name": "hug",
+                "description": "Hug a Discord user.",
+                "usage": "/reactions hug [user]",
+                "category": "Reactions"
+            },
+            {
+                "name": "kiss",
+                "description": "Kiss a Discord user.",
+                "usage": "/reactions kiss [user]",
+                "category": "Reactions"
+            }
+        ]
+    },
+    "eco": {
+        "name": "eco",
+        "description": "Economy related commands",
+        "usage": "Group",
+        "category": "Economy",
+        "subcommands": [
+            {
+                "name": "wallet",
+                "description": "Check an e-wallet's balance.",
+                "usage": "/eco wallet [user]",
+                "category": "Economy"
+            },
+            {
+                "name": "daily",
+                "description": "Claim your daily economy rewards.",
+                "usage": "/eco daily ",
+                "category": "Economy"
+            },
+            {
+                "name": "pay",
+                "description": "Send coins to another user.",
+                "usage": "/eco pay <user> <amount>",
+                "category": "Economy"
+            },
+            {
+                "name": "gamble",
+                "description": "Gamble with a 50% chance to win or lose.",
+                "usage": "/eco gamble <amount>",
+                "category": "Economy"
+            },
+            {
+                "name": "slot",
+                "description": "Roll the slot machine with coins.",
+                "usage": "/eco slot <amount>",
+                "category": "Economy"
+            },
+            {
+                "name": "blackjack",
+                "description": "Bet on a game of Blackjack.",
+                "usage": "/eco blackjack <amount>",
+                "category": "Economy"
+            },
+            {
+                "name": "towers",
+                "description": "Bet on a game of Towers.",
+                "usage": "/eco towers <amount>",
+                "category": "Economy"
+            },
+            {
+                "name": "beg",
+                "description": "Beg for some coins.",
+                "usage": "/eco beg ",
+                "category": "Economy"
+            },
+            {
+                "name": "work",
+                "description": "Work and earn coins.",
+                "usage": "/eco work ",
+                "category": "Economy"
+            },
+            {
+                "name": "luck",
+                "description": "Check your current luck.",
+                "usage": "/eco luck ",
+                "category": "Economy"
+            },
+            {
+                "name": "leaderboard",
+                "description": "See the richest of the richest Heisters.",
+                "usage": "/eco leaderboard ",
+                "category": "Economy"
+            }
+        ]
+    },
+    "randomserver": {
+        "name": "randomserver",
+        "description": "\u2728 Retrieve a random server.",
+        "usage": "/randomserver [software] [title]",
+        "category": "Fun"
+    },
+    "8ball": {
+        "name": "8ball",
+        "description": "Consult 8ball to receive an answer.",
+        "usage": "/8ball <question>",
+        "category": "Fun"
+    },
+    "animal": {
+        "name": "animal",
+        "description": "Sends a random animal.",
+        "usage": "/animal <type>",
+        "category": "Fun"
+    },
+    "urban": {
+        "name": "urban",
+        "description": "Search the Urban Dictionary.",
+        "usage": "/urban <search>",
+        "category": "Fun"
+    },
+    "lyrics": {
+        "name": "lyrics",
+        "description": "Get the lyrics of a song.",
+        "usage": "/lyrics <song> [artist]",
+        "category": "Fun"
+    },
+    "rate": {
+        "name": "rate",
+        "description": "Rates what you desire.",
+        "usage": "/rate <thing>",
+        "category": "Fun"
+    },
+    "gayrate": {
+        "name": "gayrate",
+        "description": "Rates how gay someone is.",
+        "usage": "/gayrate [user]",
+        "category": "Fun"
+    },
+    "hotcalc": {
+        "name": "hotcalc",
+        "description": "Returns a random percent for how hot a Discord user is.",
+        "usage": "/hotcalc [user]",
+        "category": "Fun"
+    },
+    "nitro": {
+        "name": "nitro",
+        "description": "Why not send a little gift?",
+        "usage": "/nitro ",
+        "category": "Fun"
+    },
+    "insult": {
+        "name": "insult",
+        "description": "Spits out a random insult.",
+        "usage": "/insult ",
+        "category": "Fun"
+    },
+    "dice": {
+        "name": "dice",
+        "description": "Dice game. Good luck.",
+        "usage": "/dice ",
+        "category": "Fun"
+    },
+    "tweet": {
+        "name": "tweet",
+        "description": "Generate a tweet.",
+        "usage": "/tweet <username> <displayname> <text> [replies] [retweets] [likes] [avatar] [theme]",
+        "category": "Fun"
+    },
+    "asciify": {
+        "name": "asciify",
+        "description": "Convert text to ASCII art.",
+        "usage": "/asciify <text> [font]",
+        "category": "Fun"
+    },
+    "juul": {
+        "name": "juul",
+        "description": "Manage your Heist juul.",
+        "usage": "/juul <action>",
+        "category": "Fun"
+    },
+    "math": {
+        "name": "math",
+        "description": "Calculate stuff.",
+        "usage": "/math <expression>",
+        "category": "Fun"
+    },
+    "games": {
+        "name": "games",
+        "description": "Minigame related commands",
+        "usage": "Group",
+        "category": "Games",
+        "subcommands": [
+            {
+                "name": "tictactoe",
+                "description": "Play TicTacToe with a friend.",
+                "usage": "/games tictactoe ",
+                "category": "Games"
+            },
+            {
+                "name": "snake",
+                "description": "Play Snake game.",
+                "usage": "/games snake ",
+                "category": "Games"
+            },
+            {
+                "name": "blackjack",
+                "description": "Play Blackjack with a friend.",
+                "usage": "/games blackjack ",
+                "category": "Games"
+            },
+            {
+                "name": "typeracer",
+                "description": "Play TypeRacer.",
+                "usage": "/games typeracer ",
+                "category": "Games"
+            }
+        ]
+    },
+    "admin": {
+        "name": "admin",
+        "description": "Heist Staff only commands",
+        "usage": "Group",
+        "category": "Owner",
+        "subcommands": [
+            {
+                "name": "blacklist",
+                "description": "Add or remove a user from the blacklist. (ADMIN)",
+                "usage": "/admin blacklist <action> [user] [reason]",
+                "category": "Owner"
+            },
+            {
+                "name": "grant",
+                "description": "Grant or remove status from someone. (ADMIN)",
+                "usage": "/admin grant <action> <status> [user]",
+                "category": "Owner"
+            }
+        ]
+    },
+    "dm": {
+        "name": "dm",
+        "description": "DMs a discord user the message of your choice. (ADMIN)",
+        "usage": "/dm <user> <message>",
+        "category": "Owner"
+    },
+    "temppremium": {
+        "name": "temppremium",
+        "description": "Give a user temporary premium status. (ADMIN)",
+        "usage": "/temppremium <user> <duration>",
+        "category": "Owner"
+    },
+    "reloadstatus": {
+        "name": "reloadstatus",
+        "description": "Reloads the status of all users. (ADMIN)",
+        "usage": "/reloadstatus ",
+        "category": "Owner"
+    },
+    "staff": {
+        "name": "staff",
+        "description": "Add or remove a user as Heist staff. (COSMIN)",
+        "usage": "/staff <action> [user]",
+        "category": "Owner"
+    },
+    "generateapikey": {
+        "name": "generateapikey",
+        "description": "Generate a new API key. (ADMIN)",
+        "usage": "/generateapikey ",
+        "category": "Owner"
+    },
+    "listapikeys": {
+        "name": "listapikeys",
+        "description": "List all API keys. (ADMIN)",
+        "usage": "/listapikeys ",
+        "category": "Owner"
+    },
+    "deleteapikey": {
+        "name": "deleteapikey",
+        "description": "Delete an API key. (ADMIN)",
+        "usage": "/deleteapikey <api_key>",
+        "category": "Owner"
+    },
+    "bash": {
+        "name": "bash",
+        "description": "Run a bash command. (COSMIN)",
+        "usage": "/bash <input>",
+        "category": "Owner"
+    },
+    "esetcoins": {
+        "name": "esetcoins",
+        "description": "Set the e-wallet balance of a user. (COSMIN)",
+        "usage": "/esetcoins <user> <amount>",
+        "category": "Owner"
+    },
+    "reload": {
+        "name": "reload",
+        "description": "Reloads a cog. (ADMIN)",
+        "usage": "/reload <package>",
+        "category": "Owner"
+    },
+    "settings": {
+        "name": "settings",
+        "description": "Manage your personal settings.",
+        "usage": "/settings ",
+        "category": "Settings"
+    },
+    "premium": {
+        "name": "premium",
+        "description": "Premium related commands",
+        "usage": "Group",
+        "category": "Info",
+        "subcommands": [
+            {
+                "name": "perks",
+                "description": "Discover the perks of Heist Premium.",
+                "usage": "/premium perks ",
+                "category": "Info"
+            },
+            {
+                "name": "buy",
+                "description": "Purchase Heist Premium.",
+                "usage": "/premium buy ",
+                "category": "Info"
+            }
+        ]
+    },
+    "invite": {
+        "name": "invite",
+        "description": "Authorize the bot.",
+        "usage": "/invite ",
+        "category": "Info"
+    },
+    "ping": {
+        "name": "ping",
+        "description": "See the bot's ping.",
+        "usage": "/ping ",
+        "category": "Info"
+    },
+    "me": {
+        "name": "me",
+        "description": "View your own Heist information.",
+        "usage": "/me [uid] [user]",
+        "category": "Info"
+    },
+    "about": {
+        "name": "about",
+        "description": "About the bot.",
+        "usage": "/about ",
+        "category": "Info"
+    },
+    "servers": {
+        "name": "servers",
+        "description": "Server list for Heist.",
+        "usage": "/servers ",
+        "category": "Info"
+    },
+    "commandcount": {
+        "name": "commandcount",
+        "description": "Heist command count.",
+        "usage": "/commandcount ",
+        "category": "Info"
+    },
+    "help": {
+        "name": "help",
+        "description": "Learn how to use the bot.",
+        "usage": "/help ",
+        "category": "Info"
+    },
+    "pm2": {
+        "name": "pm2",
+        "description": "Displays all PM2 services running and their stats.",
+        "usage": "/pm2 ",
+        "category": "Info"
+    },
+    "support": {
+        "name": "support",
+        "description": "The bot's support Discord server.",
+        "usage": "/support ",
+        "category": "Info"
+    },
+    "usercount": {
+        "name": "usercount",
+        "description": "Get the total number of users.",
+        "usage": "/usercount ",
+        "category": "Info"
+    },
+    "embedusage": {
+        "name": "embedusage",
+        "description": "Embed command usage.",
+        "usage": "/embedusage ",
+        "category": "Info"
+    },
+    "ai": {
+        "name": "ai",
+        "description": "AI related commands",
+        "usage": "Group",
+        "category": "Utility",
+        "subcommands": [
+            {
+                "name": "chat",
+                "description": "Chat to an AI text model.",
+                "usage": "/ai chat <prompt> [model]",
+                "category": "Utility"
+            },
+            {
+                "name": "bravesearch",
+                "description": "Search for something with Brave's AI.",
+                "usage": "/ai bravesearch <query>",
+                "category": "Utility"
+            },
+            {
+                "name": "imagine",
+                "description": "\u2728 Generate an image based on the given prompt.",
+                "usage": "/ai imagine <prompt> [model]",
+                "category": "Utility"
+            }
+        ]
+    },
+    "images": {
+        "name": "images",
+        "description": "Image-editing related commands",
+        "usage": "Group",
+        "category": "Utility",
+        "subcommands": [
+            {
+                "name": "blur",
+                "description": "Apply a blur effect to an image.",
+                "usage": "/images blur <image>",
+                "category": "Utility"
+            },
+            {
+                "name": "caption",
+                "description": "Add a caption to your image.",
+                "usage": "/images caption <image> <caption> [togif]",
+                "category": "Utility"
+            },
+            {
+                "name": "gifloop",
+                "description": "Convert an image to a GIF.",
+                "usage": "/images gifloop <image> [effect]",
+                "category": "Utility"
+            }
+        ]
+    },
+    "selfembed": {
+        "name": "selfembed",
+        "description": "Self-Embed related commands",
+        "usage": "Group",
+        "category": "Utility",
+        "subcommands": [
+            {
+                "name": "builder",
+                "description": "Create a self-embed.",
+                "usage": "/selfembed builder ",
+                "category": "Utility"
+            },
+            {
+                "name": "load",
+                "description": "Load a self-embed preset.",
+                "usage": "/selfembed load <preset>",
+                "category": "Utility"
+            },
+            {
+                "name": "edit",
+                "description": "Edit a self-embed preset.",
+                "usage": "/selfembed edit <preset>",
+                "category": "Utility"
+            },
+            {
+                "name": "delete",
+                "description": "Delete a self-embed preset.",
+                "usage": "/selfembed delete <preset>",
+                "category": "Utility"
+            },
+            {
+                "name": "list",
+                "description": "List of your self-embed presets.",
+                "usage": "/selfembed list ",
+                "category": "Utility"
+            }
+        ]
+    },
+    "website": {
+        "name": "website",
+        "description": "Website related commands",
+        "usage": "Group",
+        "category": "Utility",
+        "subcommands": [
+            {
+                "name": "screenshot",
+                "description": "\u2728 Take a screenshot of any website.",
+                "usage": "/website screenshot <url> [delay]",
+                "category": "Utility"
+            },
+            {
+                "name": "skid",
+                "description": "\u2728 Skid a website.",
+                "usage": "/website skid <url>",
+                "category": "Utility"
+            }
+        ]
+    },
+    "say": {
+        "name": "say",
+        "description": "Make the bot say something.",
+        "usage": "/say <message> [freaky] [uwu] [reverse]",
+        "category": "Utility"
+    },
+    "tts": {
+        "name": "tts",
+        "description": "Convert your message into audio.",
+        "usage": "/tts <text> [voice]",
+        "category": "Utility"
+    },
+    "song": {
+        "name": "song",
+        "description": "Get information about a song on Spotify.",
+        "usage": "/song <name>",
+        "category": "Utility"
+    },
+    "shazam": {
+        "name": "shazam",
+        "description": "Recognize a song using Shazam.",
+        "usage": "/shazam <audio>",
+        "category": "Utility"
+    },
+    "image": {
+        "name": "image",
+        "description": "Search for an image.",
+        "usage": "/image <query>",
+        "category": "Utility"
+    },
+    "reviewdb": {
+        "name": "reviewdb",
+        "description": "View someone's reviews on ReviewDB.",
+        "usage": "/reviewdb [user]",
+        "category": "Utility"
+    },
+    "iplookup": {
+        "name": "iplookup",
+        "description": "Lookup an IP address.",
+        "usage": "/iplookup <ip>",
+        "category": "Utility"
+    },
+    "embed": {
+        "name": "embed",
+        "description": "Create a custom embed.",
+        "usage": "/embed [title] [description] [author] [footer] [footer_image] [image] [thumbnail] [color]",
+        "category": "Utility"
+    },
+    "discordstatus": {
+        "name": "discordstatus",
+        "description": "Get the current status of Discord.",
+        "usage": "/discordstatus ",
+        "category": "Utility"
+    },
+    "shorten": {
+        "name": "shorten",
+        "description": "Shorten a URL.",
+        "usage": "/shorten <url> [domain]",
+        "category": "Utility"
+    },
+    "translate": {
+        "name": "translate",
+        "description": "Translate text to a specified language.",
+        "usage": "/translate <to> <text>",
+        "category": "Utility"
+    },
+    "emoji": {
+        "name": "emoji",
+        "description": "Get information about an emoji",
+        "usage": "/emoji <pick>",
+        "category": "Utility"
+    },
+    "wikipedia": {
+        "name": "wikipedia",
+        "description": "Searches Wikipedia for your requested query.",
+        "usage": "/wikipedia <query>",
+        "category": "Utility"
+    },
+    "bypass": {
+        "name": "bypass",
+        "description": "Bypass annoying URL shorteners.",
+        "usage": "/bypass <url>",
+        "category": "Utility"
+    }
+}
